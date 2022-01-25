@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.activity.UploadVideoActivity">
+
+    <include layout="@layout/title_layout" />
+
+    <TextView
+        android:id="@+id/tv_say"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="请上传视频凭证\n（例：我是xxx,我借了（App名字）xxx卢比）"
+        android:textColor="@color/text"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/btn_ShootVideo"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/btn_shape"
+        android:text="@string/a32"
+        android:textColor="@color/white" />
+
+</LinearLayout>

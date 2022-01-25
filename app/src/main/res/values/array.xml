@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--    薪资范围-->
+    <string-array name="spingarr">
+        <item>Below ₹5,000</item>
+        <item>₹5,000-₹9,999</item>
+        <item>₹10,000-₹14,999</item>
+        <item>₹15,000-₹29,999</item>
+        <item>₹30,000-₹49,999</item>
+        <item>Above ₹50,000</item>
+    </string-array>
+    <!--    基本信息需要增加参数：
+    String marriageStatus = jsonObj.getString("marriageStatus");	//婚姻状况 NOT_MARRY 、MARRY 、HAS_CHILD
+            String education = jsonObj.getString("education");				//教育情况 SSLC/10th、Secondary、Graduate、Postgraduate
+    -->
+
+    <!--    婚姻状况-->
+    <string-array name="marriageStatus">
+        <item>NOT_MARRY</item>
+        <item>MARRY</item>
+        <item>HAS_CHILD</item>
+    </string-array>
+    <!--    教育状况-->
+    <string-array name="education">
+        <item>SSLC/10th</item>
+        <item>Secondary</item>
+        <item>Graduate</item>
+        <item>Postgraduate</item>
+    </string-array>
+    <!--    性别-->
+    <string-array name="nannv">
+        <item>male</item>
+        <item>Female</item>
+    </string-array>
+    <!--    工作类型-->
+    <string-array name="employmentType">
+        <item>Student</item>
+        <item>salaried employee</item>
+        <item>self employed</item>
+        <item>other</item>
+    </string-array>
+</resources>

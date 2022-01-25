@@ -1,0 +1,5 @@
+include ':netlibs1'
+include ':mvplibs1'
+include ':banner'
+include ':app'
+rootProject.name = "Loan"
